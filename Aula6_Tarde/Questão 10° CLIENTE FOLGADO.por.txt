@@ -1,0 +1,37 @@
+programa
+{
+	funcao inicio ()
+	{
+		cadeia produto[4] = {"Coxinha", "Camisinha", "Trident", "Halls" }
+		cadeia codigo [4] = { "ABCD", "XYPK", "KLMP", "QRST" }
+		real preco [4] = { 5.30, 6.00, 3.20, 2.50}
+		
+		inteiro quantidade, id
+		logico encontrado = falso
+		real valor
+		cadeia buscar
+		
+		escreva("---------CLIENTE FOLGADO----------", "\n")
+		escreva("buscar o código: ", "\n")
+		leia(buscar)
+		
+		para (id = 0; id < 4; id++)  {
+			se (codigo [id] == buscar) {
+				escreva("Produto: ", produto[id], " | preço: R$", preco[id], "\n")
+				escreva("Digite a quantidade devida: ", "\n")
+				leia(quantidade)
+				
+				valor = quantidade * preco[id]
+				
+				escreva("valor total do pedido: R$", valor, "\n")
+				
+				encontrado = verdadeiro
+				pare
+			}
+		}
+		se (encontrado == falso){
+			escreva("código não encontrado", "\n")
+		}
+		
+	}
+}

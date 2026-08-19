@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro numero
+		
+		
+		
+		escreva("Calculador de antecessor e sucessor de numeros inteiros: ", "\n")
+		escreva("digite o seu número: ", "\n")
+		leia(numero)
+		escreva("Os valores são: ", numero - 1, " e ", numero + 1)
+	}
+}

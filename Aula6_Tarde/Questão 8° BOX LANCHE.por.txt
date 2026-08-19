@@ -1,0 +1,36 @@
+programa
+{
+	funcao inicio ()
+	{
+		cadeia comida [6] = { "cachorro quente", "bauru simples", "bauru com ovo", "hambúrguer", "cheeseburguer", "refrigerante" }
+		inteiro codigo [6] = { 100, 101, 102, 103, 104, 105 }
+		real preco [6] = { 1.20, 1.30, 1.50, 1.20, 1.30, 1.00 }
+		
+		inteiro buscar, quantidade, id
+		logico encontrado = falso
+		real valor
+		
+		escreva("---------BOX LANCHE----------", "\n")
+		escreva("buscar o código: ", "\n")
+		leia(buscar)
+		
+		para (id = 0; id < 6; id++)  {
+			se (codigo [id] == buscar) {
+				escreva("Lanche: ", comida[id], " | preço: R$", preco[id], "\n")
+				escreva("Digite a quantidade desejada: ", "\n")
+				leia(quantidade)
+				
+				valor = quantidade * preco[id]
+				
+				escreva("valor total do pedido: R$", valor, "\n")
+				
+				encontrado = verdadeiro
+				pare
+			}
+		}
+		se (encontrado == falso){
+			escreva("código não encontrado", "\n")
+		}
+		
+	}
+}
