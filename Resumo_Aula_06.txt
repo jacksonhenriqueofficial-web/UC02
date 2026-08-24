@@ -1,0 +1,6 @@
+Começando aprendendo sobre:
+- Variáveis: declaração, atribuição (Guardar informação na memoria).
+- Tipos de dados: (numérico, texto ou V/F).
+- Constante: um valor que não pode ser alterado.
+- exemplos: cadastro de clientes, sistema de login e cadastro de estoque.
+- Operadores aritméticos: soma(+), subtração(-), multiplicação(*) e divisão(/).
