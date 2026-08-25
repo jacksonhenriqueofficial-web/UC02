@@ -1,0 +1,7 @@
+Hoje aprendemos sobre "Operadores Lógicos"
+
+E = condições em que as variáveis são verdadeiras ou falsas, porém se uma variável for falsa, a condição será falsa, se as duas for verdadeira, será verdadeiro.
+
+Ou = condições em que as variáveis são verdadeiras ou falsas, porém se uma das condições for falsa, a condição será verdadeiro, pois uma delas é valida, se as duas for falsa, será falsa.
+
+Nao = Ela inverte o valor da variável, se for verdadeiro será falso e vice versa.
