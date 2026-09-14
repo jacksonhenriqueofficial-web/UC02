@@ -1,0 +1,13 @@
+programa
+{
+funcao inicio()
+{
+real largura, comprimento, area
+escreva("Largura (m): ")
+leia(largura)
+escreva("Comprimento (m): ")
+leia(comprimento)
+area = largura * comprimento 
+escreva("Área: ", area, " m²\n")
+}
+}

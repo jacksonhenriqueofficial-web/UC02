@@ -1,0 +1,19 @@
+cenário 1:
+Qual a distância da viagem? 
+13
+Consumo do carro por km? 
+5
+Qual o preço do Litro? 
+7.80
+Litros necessário é: 2.6 | o valor é de: 20.28
+
+---------------------------------------------
+
+cenário 2:
+Qual a distância da viagem? 
+200
+Consumo do carro por km? 
+7
+Qual o preço do Litro? 
+6.51
+Litros necessário é: 28.57 | o valor é de: 186.0
